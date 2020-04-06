@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Input Assignment</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="http://www.turnjs.com/lib/turn.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+
+	<div id="book">
+
+		<div class="hard cover">
+		<textarea placeholder
+        ="album name..." class="albumtitle" rows="4" cols="50"></textarea>
+		<textarea placeholder
+        ="DD.MM.YYYY"class="date" rows="4" cols="50"></textarea>
+		</div>
+
+		<div class="endsides">
+		</div>
+
+		<div class="content-holder">
+			<div>
+				<img class="pic1" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+				<img class="pic2" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+				<img class="pic3" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+				<textarea placeholder
+				="Caption this photo..." class="cap1" rows="4" cols="50"></textarea>
+				<textarea placeholder ="Caption this photo..." class="cap2" rows="4" cols="50"></textarea>
+				<textarea placeholder ="Caption this photo..." class="cap3" rows="4" cols="50"></textarea>
+				<textarea placeholder ="Write about this memory, where did it take place? what happened?..." class="text1" rows="4" cols="50"></textarea>
+				<textarea placeholder ="Who was involved in this memory?  Did they/you change since then?..." class="text2" rows="4" cols="50"></textarea>
+				<textarea placeholder ="Why is this memory important to you? What do you miss most about it?..." class="text3" rows="4" cols="50"></textarea>
+			</div>
+		</div>
+
+		<div class="content-holder">
+			<div>
+				<img class="pic4" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+				<textarea placeholder ="My favorite photo..." class="cap4" rows="4" cols="50"></textarea>
+				<textarea placeholder ="If I could go back and change one thing about  this memory, it would be..." class="text4" rows="4" cols="50"></textarea>
+			</div>
+		</div>
+
+		<div class="content-holder">
+			<div>
+			<img class="pic5" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<img class="pic6" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<img class="pic7" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<textarea placeholder ="Caption these photos..." class="cap5" rows="4" cols="50"></textarea>
+			<textarea placeholder ="This memory has impacted my life by..." class="text5" rows="4" cols="50"></textarea>
+			<textarea placeholder ="How often do you think of this memory and why?..." class="text6" rows="4" cols="50"></textarea>
+			</div>
+		</div>
+
+		<div class="content-holder">
+			<div>
+			<img class="pic8" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<img class="pic9" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<img class="pic10" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<img class="pic11" src="https://res.cloudinary.com/amaarahrahman/image/upload/v1586196733/polaroid_frames_by_ieditapp_d7k00a9-fullview_dovchq.png">
+			<textarea placeholder="Some more thoughts about this memory..." class="text7" rows="4" cols="50"></textarea>
+			</div>
+		</div>
+
+
+		<div class="endsides">>
+		</div>
+
+	</div>
+
+	<script>
+		$("#book").turn({
+			autoCenter: true,
+			acceleration: false
+		});
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,472 @@
+body {
+	overflow: hidden;
+	background: white;
+}
+
+#book {
+	width: 1373px;
+	height: 800px;
+	top: 5vh;
+	left: 10vw;
+	perspective: 2000px;
+}
+
+
+#book .cover {
+	background-image: url("https://res.cloudinary.com/amaarahrahman/image/upload/v1585716002/Cover_s4i3r6.jpg") !important;
+	background-size: 100% 100% !important;
+	position: relative;
+}
+
+.endsides {
+	background-image: url("https://res.cloudinary.com/amaarahrahman/image/upload/v1585716361/Pap_bcwhg1.jpg") !important;
+	background-size: 100% 100% !important;
+}
+
+#book .page {
+	width: 80vw;
+	height: 90vh;
+	box-shadow: inset 0 0 10px grey !important;
+	background-image: url("https://res.cloudinary.com/amaarahrahman/image/upload/v1585715191/sheet_wrledc.png");
+	background-size: cover;
+}
+
+#book .page h1 {
+	text-align: left;
+}
+
+#book .page p, ul {
+	text-align: left;
+}
+
+.pic1 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 64.72px;
+	top: 65px;
+	transform: rotate(1.15deg);
+}
+
+.pic1:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic2 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 275px;
+	top: 68.71px;
+	transform: rotate(-1.69deg);
+}
+
+.pic2:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+.pic3 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 427px;
+	top: 503.71px;
+	transform: rotate(-1.69deg);
+}
+
+.pic3:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic4 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 248.72px;
+	top: 239px;
+	transform: rotate(1.15deg);
+}
+
+.pic4:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic5 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 64.72px;
+	top: 82px;
+	transform: rotate(1.15deg);
+}
+.pic5:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic6 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 60px;
+	top: 343.71px;
+	transform: rotate(-1.69deg);
+}
+
+.pic6:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic7 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 413px;
+	top: 237.71px;
+	transform: rotate(-1.69deg);
+}
+.pic7:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic8 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 32px;
+	top: 35.71px;
+	transform: rotate(-1.69deg);
+}
+
+.pic8:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic9 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 246.35px;
+	top: 29.86px;
+	transform: rotate(-0.03deg);
+}
+.pic9:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic10 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 39px;
+	top: 283.12px;
+	transform: rotate(-0.03deg);
+}
+
+.pic10:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+.pic11 {
+	position: absolute;
+	width: 193px;
+	height: 234px;
+	left: 248.53px;
+	top: 281.07px;
+	transform: rotate(1.19deg);
+}
+.pic11:hover {
+	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes shake {
+	10%, 90% {
+	  transform: translate3d(-1px, 0, 0);
+	}
+	
+	20%, 80% {
+	  transform: translate3d(2px, 0, 0);
+	}
+  
+	30%, 50%, 70% {
+	  transform: translate3d(-4px, 0, 0);
+	}
+  
+	40%, 60% {
+	  transform: translate3d(4px, 0, 0);
+	}
+  }
+
+.content-holder {
+	position: relative;
+	height: 100%;
+}
+
+.albumtitle {
+	background-color: transparent;
+	position: absolute;
+	width: 514px;
+	height: 56px;
+	left: 86px;
+	top: 265px;
+
+	font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 58px;
+	text-align: center;
+	border: transparent 0px;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.date {
+	background-color: transparent;
+	position: absolute;
+	width: 154px;
+	height: 30px;
+	left: 266px;
+	top: 340px;
+
+	font-family: "Bodoni MT", Didot, "Didot LT STD", "Book Antiqua", Garamond, "Times New Roman", serif;;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	border: transparent 0px;
+	color: #000000
+}
+
+.text1 {
+	background-color: transparent;
+	position: absolute;
+	width: 157px;
+	height: 231px;
+	left: 500.34px;
+	top: 63.17px;
+	border: transparent 0px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	
+	color: #000000;
+	
+	transform: rotate(2.13deg);
+}
+
+.text2 {
+	background-color: transparent;
+	position: absolute;
+	width: 415px;
+	height: 103px;
+	border: transparent 0px;
+	left: 61.3px;
+	top: 327.01px;
+	
+	font-style: normal;
+	font-family: 'Homemade Apple', cursive;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 30px;
+	
+	color: #000000;
+	
+	transform: rotate(1.38deg);
+}
+
+.text3 {
+	background-color: transparent;
+	position: absolute;
+	width: 188px;
+	border: transparent 0px;
+	height: 251px;
+	left: 213.31px;
+	top: 499.19px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	
+	color: #000000;
+	
+	transform: rotate(2.39deg);
+}
+
+.text4 {
+	background-color: transparent;
+	position: absolute;
+	border: transparent 0px;
+	width: 288.28px;
+	height: 134.73px;
+	left: 197px;
+	top: 510.64px;
+
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #000000;
+
+	transform: rotate(-1.12deg);
+}
+
+.text5 {
+	background-color: transparent;
+	position: absolute;
+	border: transparent 0px;
+	width: 288.28px;
+	height: 138.82px;
+	left: 52.95px;
+	top: 612.53px;
+
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #000000;
+
+	transform: rotate(1.31deg);
+}
+
+.text6 {
+	background-color: transparent;
+	position: absolute;
+	width: 288.28px;
+	border: transparent 0px;
+	height: 136.05px;
+	left: 367px;
+	top: 47.64px;
+
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #000000;
+
+	transform: rotate(-1.12deg);
+}
+
+.text7 {
+	background-color: transparent;
+	position: absolute;
+	width: 288.28px;
+	border: transparent 0px;
+	height: 137.28px;
+	left: 362.39px;
+	top: 617px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	
+	color: #000000;
+	
+	transform: rotate(0.1deg);
+}
+
+.cap1 {
+	background-color: transparent;
+	position: absolute;
+	border: transparent 0px;
+	width: 188px;
+	height: 24px;
+	left: 70px;
+	top: 35px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	
+	color: #000000;
+}
+
+.cap2 {
+	background-color: transparent;
+	position: absolute;
+	width: 188px;
+	border: transparent 0px;
+	height: 24px;
+	left: 287px;
+	top: 35px;
+
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+
+	color: #000000;
+}
+
+.cap3 {
+	background-color: transparent;
+	position: absolute;
+	border: transparent 0px;
+	width: 188px;
+	height: 24px;
+	left: 427px;
+	top: 464px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	
+	color: #000000;	
+}
+
+.cap4 {
+	background-color: transparent;
+	position: absolute;
+	border: transparent 0px;
+	width: 188px;
+	height: 24px;
+	left: 249px;
+	top: 199px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	
+	color: #000000;
+}
+
+.cap5 {
+	background-color: transparent;
+	position: absolute;
+	width: 188px;
+	border: transparent 0px;
+	height: 24px;
+	left: 70px;
+	top: 42px;
+	
+	font-family: 'Homemade Apple', cursive;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	
+	color: #000000;
+}
